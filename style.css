@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: orange;
+}
+li{
+	list-style-type: none;
+	color: #fff;
+	border:2px solid grey;
+	width: 120px;
+	height: 60px;
+	background-color: #000;
+	padding-top: 20px;
+	text-align: center;
+	float: left;
+}
+.main > .menu li ul{
+	margin: 20px 0 0 -43px;
+	display: none;
+}
+li:hover{
+	background-color: yellowgreen;
+}
+.main > .menu li:hover ul{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: #fff; 
+}
+#nested{
+	display: none;
+}
+.main > .menu li ul li:hover #nested{
+	display: block;
+	
+}
